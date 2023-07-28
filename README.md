@@ -1,1 +1,5 @@
 # DeepLearningDatasetCIFAR10
+
+This particular exercise was implemented in python for a CNN network using the keras and tensorflow libraries. The code loads the CIFAR-10 dataset, which displays a sample of 25 images from the training set with their corresponding labels. It is performed by scaling the pixel values of the images between 0 and 1 by dividing each value by 255. A simple encoding of the labels is implemented and the CNN architecture is defined, which consists of multiple convolutional, max-pooling layers followed by fully connected layers for classification. The model is evaluated on the test set using the accuracy of the test set as the evaluation metric. Finally, the code also includes visualization for drawing the model summary and for showing the training progress per trials (epoch=50).
+Dataset: The dataset is downloaded from the keras library using the command CIFAR_10 = keras.datasets.cifar10. 60,000 images are imported this way. We allocated 10,000 to test. They are black and white and 32x32 pixels.
+Accuracy: 0.788100004196167
